@@ -1,0 +1,47 @@
+
+Single objective optimization:
+24 Variable(s)
+
+Options:
+CreationFcn:       @gacreationuniform
+CrossoverFcn:      @crossoverscattered
+SelectionFcn:      @selectionstochunif
+MutationFcn:       @mutationadaptfeasible
+
+                                  Best           Mean      Stall
+Generation      Func-count        f(x)           f(x)    Generations
+    1              200         0.01637         7.8e+05        0
+    2              295         0.01637         6.6e+05        1
+    3              390         0.01637         6.8e+05        2
+    4              485         0.01637         6.6e+05        3
+    5              580         0.01637           6e+05        4
+    6              675         0.01637         5.1e+05        5
+    7              770          0.0119           5e+05        0
+    8              865        0.008835         4.4e+05        0
+    9              960        0.005705         3.2e+05        0
+   10             1055        0.005705         3.6e+05        1
+   11             1150        0.005705         3.6e+05        2
+   12             1245        0.005705         3.9e+05        3
+   13             1340        0.005705         3.4e+05        4
+   14             1435        0.005705         2.2e+05        5
+   15             1530         0.00416         1.8e+05        0
+   16             1625         0.00416         1.5e+05        1
+   17             1720        0.003826         1.1e+05        0
+   18             1815        0.001629         1.5e+05        0
+   19             1910        0.001536         1.5e+05        0
+   20             2005        0.001536         1.9e+05        1
+   21             2100        0.001536         1.8e+05        2
+   22             2195        0.001518         1.4e+05        0
+   23             2290        0.001518         1.9e+05        1
+   24             2385        0.001518         1.3e+05        0
+   25             2480        0.001515         1.2e+05        0
+   26             2575         0.00151         2.2e+05        0
+   27             2670        0.001509         2.8e+05        0
+   28             2765        0.001507         2.9e+05        0
+   29             2860        0.001505           3e+05        0
+   30             2955        0.001503         1.8e+05        0
+
+                                  Best           Mean      Stall
+Generation      Func-count        f(x)           f(x)    Generations
+   31             3050        0.001431         1.2e+05        0
+Optimization terminated: minimum fitness limit reached.

@@ -1,0 +1,52 @@
+
+Single objective optimization:
+12 Variable(s)
+
+Options:
+CreationFcn:       @gacreationuniform
+CrossoverFcn:      @crossoverscattered
+SelectionFcn:      @selectionstochunif
+MutationFcn:       @mutationadaptfeasible
+{Error using polyshape/checkInput
+NaN placement in x- and y-coordinate matrix must be the same.
+
+Error in polyshape (line 169)
+               [X, Y, tc, simpl, collinear] = polyshape.checkInput(param, varargin{:});
+
+Error in airfoil_func_calls>area_trans (line 38)
+    doout = area(polyshape([M(indpo:end,1); flip(target(indpt:end,1))],[M(indpo:end,2); flip(target(indpt:end,2)+y)]));
+
+Error in airfoil_func_calls>@(y)area_trans(M,target,y) (line 26)
+    fun=@(y)area_trans(M,target,y);
+
+Error in fminbnd (line 232)
+x= xf; fx = funfcn(x,varargin{:});
+
+Error in airfoil_func_calls (line 27)
+    [~, out] = fminbnd(fun,-.1,.1);
+
+Error in airfoil_wrapper (line 2)
+out=airfoil_func_calls(x(1),x(2),x(3),x(4),x(5), ...
+
+Error in AirOptimizer>@(x)airfoil_wrapper(x,fullfile(pwd,num2str(i,'%04d'),'Target.txt')) (line 39)
+        ga(@(x) airfoil_wrapper(x, ...
+
+Error in createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+fcn_handle = @(x) fcn(x,FcnArgs{:});
+
+Error in makeState (line 58)
+            firstMemberScore = FitnessFcn(state.Population(initScoreProvided+1,:));
+
+Error in galincon (line 24)
+state = makeState(GenomeLength,FitnessFcn,Iterate,output.problemtype,options);
+
+Error in ga (line 414)
+            [x,fval,exitFlag,output,population,scores] = galincon(FitnessFcn,nvars, ...
+
+Error in AirOptimizer (line 39)
+        ga(@(x) airfoil_wrapper(x, ...
+
+Caused by:
+    Failure in initial user-supplied fitness function evaluation. GA cannot
+    continue.
+} 

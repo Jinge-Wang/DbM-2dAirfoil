@@ -1,0 +1,39 @@
+
+Single objective optimization:
+25 Variable(s)
+
+Options:
+CreationFcn:       @gacreationuniform
+CrossoverFcn:      @crossoverscattered
+SelectionFcn:      @selectionstochunif
+MutationFcn:       @mutationadaptfeasible
+
+                                  Best           Mean      Stall
+Generation      Func-count        f(x)           f(x)    Generations
+    1              200         0.01244           4e+04        0
+    2              295        0.009552           1e+04        0
+    3              390        0.006881           6e+04        0
+    4              485        0.006881           4e+04        1
+    5              580        0.004719           6e+04        0
+    6              675        0.004719           3e+04        1
+    7              770        0.004719          0.0695        2
+    8              865        0.003071           1e+04        0
+    9              960        0.003071           1e+04        1
+   10             1055        0.002324         0.01948        0
+   11             1150        0.001746         0.02275        0
+   12             1245        0.001746         0.01026        1
+   13             1340        0.001746        0.008568        2
+   14             1435        0.001696        0.005441        0
+   15             1530        0.001648        0.004582        0
+   16             1625        0.001648         0.01112        1
+   17             1720        0.001596        0.007743        0
+   18             1815        0.001596        0.008447        1
+   19             1910        0.001593        0.004137        0
+   20             2005        0.001565        0.004576        0
+   21             2100        0.001475         0.00995        0
+   22             2195        0.001473          0.0106        0
+   23             2290        0.001473        0.008635        1
+   24             2385        0.001473        0.004872        2
+   25             2480        0.001473         0.00378        3
+   26             2575        0.001425        0.003464        0
+Optimization terminated: minimum fitness limit reached.

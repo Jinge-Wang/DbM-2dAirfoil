@@ -1,0 +1,29 @@
+
+Single objective optimization:
+25 Variable(s)
+
+Options:
+CreationFcn:       @gacreationuniform
+CrossoverFcn:      @crossoverscattered
+SelectionFcn:      @selectionstochunif
+MutationFcn:       @mutationadaptfeasible
+
+                                  Best           Mean      Stall
+Generation      Func-count        f(x)           f(x)    Generations
+    1              200         0.01184           4e+04        0
+    2              295         0.01061           5e+04        0
+    3              390        0.009271           3e+04        0
+    4              485        0.009271           3e+04        1
+    5              580        0.005316           4e+04        0
+    6              675        0.004305           2e+04        0
+    7              770        0.002296           2e+04        0
+    8              865        0.002296         0.02716        1
+    9              960        0.002296         0.02129        2
+   10             1055        0.002296         0.01574        3
+   11             1150        0.002296         0.01285        4
+   12             1245        0.001535         0.01036        0
+   13             1340        0.001535        0.008192        1
+   14             1435        0.001535        0.007803        2
+   15             1530        0.001474        0.006086        0
+   16             1625        0.001363        0.004487        0
+Optimization terminated: minimum fitness limit reached.

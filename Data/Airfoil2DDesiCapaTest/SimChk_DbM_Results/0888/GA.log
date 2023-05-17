@@ -1,0 +1,38 @@
+
+Single objective optimization:
+25 Variable(s)
+
+Options:
+CreationFcn:       @gacreationuniform
+CrossoverFcn:      @crossoverscattered
+SelectionFcn:      @selectionstochunif
+MutationFcn:       @mutationadaptfeasible
+
+                                  Best           Mean      Stall
+Generation      Func-count        f(x)           f(x)    Generations
+    1              200          0.0117           9e+04        0
+    2              295         0.01053           3e+04        0
+    3              390        0.009694           5e+04        0
+    4              485        0.006238           1e+04        0
+    5              580        0.006238           4e+04        1
+    6              675        0.005906           5e+04        0
+    7              770        0.004095           3e+04        0
+    8              865        0.003887           1e+04        0
+    9              960        0.003174           2e+04        0
+   10             1055        0.002985           3e+04        0
+   11             1150        0.002985         0.02085        1
+   12             1245        0.002805         0.01369        0
+   13             1340        0.002039         0.01363        0
+   14             1435        0.001827         0.01581        0
+   15             1530        0.001733         0.01191        0
+   16             1625        0.001691         0.01109        0
+   17             1720        0.001691        0.009769        1
+   18             1815        0.001662        0.009035        0
+   19             1910        0.001562         0.01091        0
+   20             2005        0.001537          0.0105        0
+   21             2100        0.001537        0.009821        1
+   22             2195        0.001448         0.01037        0
+   23             2290        0.001448        0.009417        1
+   24             2385        0.001448        0.007362        2
+   25             2480        0.001255        0.004122        0
+Optimization terminated: minimum fitness limit reached.
